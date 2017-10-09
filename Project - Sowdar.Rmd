@@ -9,16 +9,16 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
+##Reading the Insulin Phosphorylation raw data from the txt file
 ```{r set working directory and read data,,results='asis'}
  
-setwd("C:/Users/kirubha/Desktop/Dataset/Data/Project")
+setwd("C:/Users/Sahana/Documents/STAT5003 Computational Statistical Methods")
 raw_data = read.csv("InsulinPhospho.txt",header = TRUE, sep = "\t")
 data = raw_data
 akt_data = raw_data
 mTOR_data = raw_data
 
-
+#Reading the akt and mTOR substrate data#
 
 akt_substrate = read.csv("Akt_substrates.txt",header = FALSE, sep = "\t")
 mTOR_substrate = read.csv("mTOR_substrates.txt",header = FALSE, sep = "\t")
