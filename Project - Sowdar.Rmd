@@ -5,6 +5,31 @@ date: "26 September 2017"
 output: html_document
 ---
 
+#INTRODUCTION
+Phosphorylation is an essential protein post-translational modification characterized by the precise and reversible addition of a phosphate group, by proteins called 'kinases', to their targets, called 'substrates' (Hunter, 1995). The objective of this project is to classify AKT and mTOR substrates from the given data of all insulin phosphorylation sites provided. 
+
+With the advent of new technology and techniques in data science, the classification of the substrates, which was an ardent manual task before can now be fully automated. This project would endevour to identify new substrates within the 12,000 insulin phosphorylation sites that are provided.
+
+The report below would will explain in detail the stages of the project, the analysis performed in each stage and final model predictions with the output of at each stage.
+
+#Data
+Dataset provided for the this analysis consists of the following 3 data sets
+
+* **Insuline Phosphorylation site**
+* **AKT Substrates - A subset of all sites from the insuline phosphorylation site data**
+* **mTOR Substrates - A subset of all sites from the insuline** 
+
+#Project Methodology
+
+#Exploratory Analysis 
+
+#Optimal Model Selection
+
+#Model and Output
+
+#Validation of Accuracy
+
+#Conclusion
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
